@@ -3,20 +3,15 @@
   "description": "Easily navigate key platform features",
   "version": "0.0.1",
   "manifest_version": 3,
-
   "action": {
     "default_icon": "favicon.png",
     "default_popup": "index.html"
   },
-
-  "permissions":[
+  "permissions": [
     "tabs"
   ],
-
-  "host_permissions":[
+  "host_permissions": [
     "<all_urls>"
   ],
-
   "autor": "Conviso"
-
 }

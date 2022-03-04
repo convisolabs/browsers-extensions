@@ -1,0 +1,17 @@
+body{
+	width: 150px;
+  height: 230px;
+}
+
+.button {
+  background-color: #ffb700;
+  border: none;
+  color: white;
+  width: 140px;
+  margin:5px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
