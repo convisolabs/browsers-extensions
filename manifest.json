@@ -13,16 +13,9 @@
     "tabs"
   ],
 
-  "content_scripts": [
-    "js": ["script.js"],
-    "css": ["style.css"]
-  ],
-
   "host_permissions":[
     "<all_urls>"
   ],
-
-  "content_security_policy": "script-src 'self'; object-src 'self'"",
 
   "autor": "Conviso"
 
