@@ -1,17 +1,29 @@
-body{
-	width: 150px;
+body {
+  width: 150px;
   height: 230px;
+  
 }
 
 .button {
-  background-color: #ffb700;
   border: none;
+  background-color: #ffb700;
   color: white;
   width: 140px;
-  margin:5px;
+  margin: 5px;
   padding: 10px 10px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 13px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0, 0.3);
+}
+
+.button:active {
+  box-shadow: none;
+  background-color: #be911e;
+}
+
+.disabled{
+  background-color: grey;
 }
