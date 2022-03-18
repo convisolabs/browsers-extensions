@@ -8,10 +8,11 @@
     "default_popup": "index.html"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "host_permissions": [
     "<all_urls>"
   ],
-  "autor": "Conviso"
+  "author": "Conviso"
 }
