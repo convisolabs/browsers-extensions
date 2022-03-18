@@ -1,7 +1,6 @@
 var url = "";
 var newvuln = document.getElementById("btn-newvuln");
 var editvuln = document.getElementById("btn-editvuln");
-var chatvuln = document.getElementById("btn-chatvuln");
 var newproject = document.getElementById("btn-newproject");
 var chatproject = document.getElementById("btn-chatproject");
 
@@ -42,11 +41,6 @@ function createVuln() {
 function editVuln() {
   window.open(edit_vulnerability,'_blank');
 }
-
-//function chatVuln() {
-  //document.write(`<li>${chat_vulnerability}</li>`);
-  //window.location.href = chat_vulnerability;
-//}
 
 function createProject() {
   window.open(new_project,'_blank');

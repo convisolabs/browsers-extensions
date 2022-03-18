@@ -33,18 +33,6 @@ const editVulnerability = () => {
   })
 }
 
-const openChatVulnerability = () => {
-  loadChromeTabInformation((urlToArray, _, baseCustomerUrl) => {
-    if (urlToArray[7] === "occurrences") {
-      const occurrenceId = extractId(urlToArray[8])
-      if (!isNaN(occurrenceId)) {
-        const urlToOpen = `${baseCustomerUrl}/projects/${urlToArray[6]}/occurrences/${occurrenceId}/vulnerability_comments?locale=en`
-        window.open(urlToOpen, '_blank');
-      }
-    }
-  })
-}
-
 const createNewProject = () => {
   loadChromeTabInformation((__, _, baseCustomerUrl) => {
     const urlToOpen = `${baseCustomerUrl}/projects/new?analyze=false&locale=en`
